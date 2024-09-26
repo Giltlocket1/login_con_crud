@@ -1,0 +1,46 @@
+body {
+   background-image: linear-gradient(to bottom, #012c88, #065fa7,#010e29, #05253f);
+}
+
+button {
+    background-image: linear-gradient(to right, #00b7ff, #052652,#041029, #052035 );
+}
+a {
+    text-decoration: none;
+}
+
+.c-user {
+    font-size: 100px;
+}
+
+.form-control {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: solid white 2px;
+}
+.form-control:focus {
+    color: white;
+    border: none;
+    border-bottom: solid white 2px;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.form-control::placeholder {
+    color: rgb(197, 193, 193);
+}
+
+.input-group-text {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: solid white 2px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

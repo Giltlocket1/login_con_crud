@@ -1,0 +1,44 @@
+body {
+    background: rgb(15,5,185);
+    background: linear-gradient(0deg, rgba(15,5,185,1) 0%, rgba(255,255,255,0.7763480392156863) 32%, rgba(20,215,255,1) 71%, rgba(0,212,255,1) 100%);
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .c-user {
+     font-size: 100px;
+ }
+ 
+ .form-control {
+     color: white;
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     border-bottom: solid white 2px;
+ }
+ .form-control:focus {
+     color: white;
+     border: none;
+     border-bottom: solid white 2px;
+     box-shadow: none;
+     background-color: rgba(255, 255, 255, 0);
+ }
+ .form-control::placeholder {
+     color: rgb(197, 193, 193);
+ }
+ 
+ .input-group-text {
+     color: white;
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     border-bottom: solid white 2px;
+ }
+ 
+ form {
+     background-color: rgba(255, 255, 255, 0.1); 
+     border-radius: 15px; 
+     backdrop-filter: blur(10px); 
+     -webkit-backdrop-filter: blur(10px); 
+     border: 1px solid rgba(255, 255, 255, 0.3);
+ }
